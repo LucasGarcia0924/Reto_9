@@ -69,18 +69,32 @@ if __name__ == "__main__": # Función main par indicar el inicio del código
     print(f"{valor} es el {preferencia}")
 ```
 ## Funciones del reto
-  ###
+  ### Funciones en forma de lambdas
+  #### N# 1 Calcular el modulo de 2 valores:
+  [![Lambda1.png](https://i.postimg.cc/sDLsQtcy/Lambda1.png)](https://postimg.cc/TpnZBNFH)
+  
+  #### N# 2 Calcular el cambio recibido al comprar ciertos artículos en una tienda:
+  [![Lambda2.png](https://i.postimg.cc/65rFwgmY/Lambda2.png)](https://postimg.cc/Lnsx3CR1)
+  
+  #### N# 3 Calcular la cantidad de contagiados de un virus luego de D dias y partiendo de una cantidad base C:
+  [![Lambda3.png](https://i.postimg.cc/90t155Q9/Lambda3.png)](https://postimg.cc/5Qy8Lrv9)
+  
+  ### Funciones con argumentos no definidos (*args)
+  #### N# 1 Calcular el promedio de 5 valores:
+  [![args1.png](https://i.postimg.cc/BnsbnWQ6/args1.png)](https://postimg.cc/zVt8xchZ) 
+  
+  ##### N# 2 Calcular el promedio multiplicativo de 5 valores:
+  [![args2.png](https://i.postimg.cc/4NXRKXtr/args2.png)](https://postimg.cc/K4pHwS0N)
+  
+  #### N# 3 Ordenar los datos de menor a mayor:
+  [![args3-1.png](https://i.postimg.cc/YS6xmBQs/args3-1.png)](https://postimg.cc/4K3crML6)
+  [![args3-2.png](https://i.postimg.cc/dDc1Cp25/args3-2.png)](https://postimg.cc/4Hwsk8Fc)
+  
   ### Punto #3
 Escriba una función recursiva para calcular la operación de la potencia.
-```
-def operacion (a: float, n: float, potencia: float = 1) -> float: # Datos que ingresan y salen de la función
-    n -= 1 # Se actualiza
-    if n <= -1:
-        return potencia # caso base para finalizar la recursión
-    else:
-        potencia *= a # caso opuesto en donde se actualiza la variable potencia y se da la recursión
-    return operacion(a, n, potencia)
-```
+***
+[![punto3.png](https://i.postimg.cc/bJYBR9H8/punto3.png)](https://postimg.cc/NyVDsTzP)
+
   ### Punto #4
 Realice pruebas para calcular fibonacci con iteración o con recursión. Determine desde que número de la serie la diferencia de tiempo se vuelve significativa.
 ```
