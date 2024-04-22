@@ -1,6 +1,8 @@
 # Reto_9
 ***
 Evidencia de la solución de las actividades propuestas en el reto #9
+
+[![Logo-equipo.webp](https://i.postimg.cc/Z5BYw1Tx/Logo-equipo.webp)](https://postimg.cc/9D2jMgwD)
 ## Ejercicios de la clase
   ### N°1
   Cree una función que permita calcular el Máximo Comun Divisor de dos números dados (a y b).
